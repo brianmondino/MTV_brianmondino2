@@ -4,6 +4,7 @@ from django.shortcuts import render
 
 
 
+
 def saludo(request):
 	return HttpResponse('El mondi saluda')
 

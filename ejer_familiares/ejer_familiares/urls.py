@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from ejer_familiares.view import saludo, template1_test, template2_test, temp3_entrega
+from app_familia.views import miembroos
 
 
 urlpatterns = [
@@ -24,4 +25,5 @@ urlpatterns = [
     path('template1_test/', template1_test, name = 'template1_test'),
     path('template2_test/', template2_test, name = 'template2_test'),
     path('temp3_entrega/', temp3_entrega, name = 'temp3_entrega'),
+    
 ]
