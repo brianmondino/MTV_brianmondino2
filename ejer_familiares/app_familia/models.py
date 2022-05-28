@@ -7,4 +7,5 @@ class miembros(models.Model):
     nombre = models.CharField(max_length=50)
     apellido = models.CharField(max_length=50)
     dni = models.IntegerField(blank=True, null=True)
+    fecha_nac = models.CharField(max_length=50)
     telefono = models.IntegerField(blank=True, null=True)
