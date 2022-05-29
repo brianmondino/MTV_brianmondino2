@@ -18,7 +18,7 @@ def template2_test(request):
     }
     return render(request, 'tem_fam2.html', context = context)
 
-def temp3_entrega(request):
+def tem4(request):
     context = {
         'nombre': 'Brian',
         'apellido':'Mondino',
@@ -26,5 +26,5 @@ def temp3_entrega(request):
         'fecha_nac':'18/10/1988',
         'telefono':'4786-4444'
     }
-    return render(request, 'tem_fam3.html', context = context)
+    return render(request, 'tem4.html', context = context)
 
